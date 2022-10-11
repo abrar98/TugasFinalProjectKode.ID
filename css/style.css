@@ -1,0 +1,116 @@
+body {
+    min-height: 75rem;
+    background: #DFF6FF;
+    margin: 0;
+}
+.navbar{
+    /* making navbar background linear */
+    background: linear-gradient(to left,#06283D, #47B5FF );
+}
+
+.home {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+
+     /* Background styles */
+     background-image: url(https://picsum.photos/id/1041/1000.webp);
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+.home h1 {
+    /* Text styles */
+    font-size: 5em;
+}
+
+.about {
+    padding: 4em 0;
+    margin: 1em;
+    position: relative;
+}
+
+.about h1 {
+    color: #256D85;
+    margin: 2em;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about .desc p {
+    line-height: 2;
+    color: #888;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.portofolio{
+    padding: 4em 0;
+    position: relative;
+}
+
+.portofolio h1{
+    color: #256D85;
+    margin: 2em;
+}
+
+.row img {
+    height: 15rem;
+    width: 100%;
+    padding: 1em;
+}
+
+.blog{
+    padding: 4em 0;
+    position: relative;
+}
+
+.blog h1{
+    color: #256D85;
+    margin: 2em;
+}
+
+.team{
+    padding: 4em 0;
+    position: relative;
+}
+
+.team h1{
+    color: #256D85;
+    margin: 2em;
+}
+
+.contact-form{
+    margin: 6em 0;
+    position: relative;
+}
+
+.contact-form h1 {
+    padding: 2em 1px;
+    color: #256D85;
+}
+
+.contact-form .right {
+    max-width: 600px;
+}
+
+input{
+    padding: 1em;
+}
